@@ -82,7 +82,7 @@ function App() {
         if (error || !data.session) {
           console.error("Error fetching session or session missing:", error);
           dispatch(setLoggedIn(false));
-          navigate("/login");
+          navigate("/register");
         } else {
           dispatch(setLoggedIn(true));
           await fetchTasks(data.session.user.id); // Fetch tasks if logged in
