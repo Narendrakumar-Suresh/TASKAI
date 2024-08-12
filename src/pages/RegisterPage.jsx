@@ -22,7 +22,6 @@ export default function Register() {
       return { ...prevFormData, [event.target.name]: event.target.value };
     });
   }
-
   async function signInWithGoogle() {
     const { data, error } = await supabase.auth.signInWithOAuth({
       provider: "google",
@@ -30,8 +29,9 @@ export default function Register() {
 
     if (error) {
       console.error(error);
+    } else {
+      navigate("/");
     }
-    navigate("/");
   }
 
   async function signUpNewUser() {
