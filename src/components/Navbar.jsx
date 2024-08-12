@@ -35,7 +35,7 @@ export default function Navbars() {
         <NavbarBrand>
           <Image
             isBlurred
-            src="src/assets/Global_1.jpg"
+            src="/Global.ico"
             height={50}
             radius="full"
             // className="h-12 w-12 rounded-full"
