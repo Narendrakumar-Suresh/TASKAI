@@ -1,4 +1,4 @@
-# ![TaskAI Logo](./Global.ico) TaskAI - AI-based To-Do Application
+# ![TaskAI Logo](public/Global.icoGlobal.ico) TaskAI - AI-based To-Do Application
 
 ## Overview
 
