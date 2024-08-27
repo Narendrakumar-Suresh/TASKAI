@@ -33,13 +33,7 @@ export default function Navbars() {
     <Navbar isBordered className="bg-black" justify="center">
       <NavbarContent justify="start">
         <NavbarBrand>
-          <Image
-            isBlurred
-            src="/Global.ico"
-            height={50}
-            radius="full"
-            // className="h-12 w-12 rounded-full"
-          ></Image>
+          <Image isBlurred src="/Global.ico" height={50}></Image>
           <p className="hidden sm:block font-bold text-inherit">TASKAI</p>
         </NavbarBrand>
       </NavbarContent>
