@@ -1,4 +1,9 @@
-# ![TaskAI Logo](public/Global.icoGlobal.ico) TaskAI - AI-based To-Do Application
+#  TaskAI - AI-based To-Do Application
+
+> ⚠️ **Warning:**  
+> The AI feature has been removed due to the model's under-performance.
+
+
 
 ## Overview
 
