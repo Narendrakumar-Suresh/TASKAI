@@ -2,6 +2,7 @@
 
 > ⚠️ **Warning:**  
 > The AI feature has been removed due to the model's under-performance.
+> Sign Up with Google Feature has been deprecated.
 
 
 
